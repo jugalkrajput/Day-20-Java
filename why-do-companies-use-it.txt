@@ -1,0 +1,13 @@
+Why do companies use Spring Boot?
+=================================
+. Faster development
+. Easier microservices architecture
+. Reduced configuration effort
+. Strong ecosystem integration
+. Enterprise-grade reliability
+. Large community support
+
+Many organizations use Spring Boot for backend systems, REST APIs, cloud-native applications, and microservices.
+
+In one sentence
+Spring Boot is a framework that simplifies Java Spring development by providing auto-configuration, embedded servers, and ready-to-use defaults so developers can build production-ready applications quickly.

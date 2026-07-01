@@ -1,0 +1,14 @@
+Spring Boot
+===========
+Spring Boot is an open-source framework built on top of the Java Spring Framework that makes it much easier and faster to create, run, and deploy Java applications, especially web applications, REST APIs and microservices.
+
+Why was Spring Boot created?
+============================
+Before Spring Boot, developing a Spring application required a lot of configuration:
+
+. Large XML configuration files
+. Manual dependency management
+. Complex server setup
+. Significant boilerplate code
+
+Spring Boot was introduced by VMware Spring Team to reduce this complexity and help developers become productive more quickly.

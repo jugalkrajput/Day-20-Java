@@ -1,0 +1,59 @@
+@SpringBootApplication
+
+This is the most important annotation in a Spring Boot application.
+
+It is actually a combination of three annotations:
+. @Configuration
+. @EnableAutoConfiguration
+. @ComponentScan
+
+A. @Configuration
+Tells Spring:
+"This class contains configuration for the application."
+
+Similar to saying:
+@Configuration
+public class AppConfig
+{
+    @Bean
+    public MyService myService() 
+    {
+        return new MyService();
+    }
+}
+Spring reads this configuration and creates objects (beans) accordingly.
+
+B. @EnableAutoConfiguration
+This is Spring Boot's magic.
+
+It checks:
+
+. What dependencies are in your project
+. What configuration files exist
+. What classes are available
+
+Then automatically configures things.
+
+Example
+Suppose your pom.xml contains:
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+
+Spring Boot sees:
+"Oh, this application needs web functionality."
+
+It automatically configures:
+
+. Embedded Tomcat
+. DispatcherServlet
+. JSON support
+. HTTP request handling
+without you writing configuration.
+
+C. @ComponentScan
+Tells Spring:
+
+"Look for Spring-managed classes in this package and subpackages."

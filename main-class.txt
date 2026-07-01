@@ -1,0 +1,15 @@
+@SpringBootApplication
+public class DemoApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(DemoApplication.class, args);
+    }
+}
+
+public class DemoApplication
+public class DemoApplication {
+
+This is a normal Java class.
+Spring Boot needs a starting point (entry point) for the application, and this class serves that purpose.
+
+Think of it as:
+"Start the application from here."

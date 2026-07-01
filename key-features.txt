@@ -1,0 +1,40 @@
+Key Features of Spring Boot
+===========================
+1. Auto-Configuration
+Automatically configures your application based on the dependencies you add.
+Example: If you add a web dependency, Spring Boot automatically sets up a web server.
+
+2. Embedded Servers
+Includes servers such as Apache Tomcat, Jetty, or Undertow.
+No need to deploy a WAR file to an external server.
+
+3. Starter Dependencies
+Predefined dependency bundles such as:
+spring-boot-starter-web
+spring-boot-starter-data-jpa
+spring-boot-starter-security
+Simplifies dependency management.
+
+4. Production-Ready Features
+. Health checks
+. Metrics
+. Monitoring
+. Logging
+. Provided through Spring Boot Actuator.
+
+5. Opinionated Defaults
+Provides sensible default configurations while still allowing customization.
+
+Example
+A minimal Spring Boot application:
+
+@SpringBootApplication
+public class DemoApplication 
+{
+    public static void main(String[] args) 
+    {
+        SpringApplication.run(DemoApplication.class, args);
+    }
+}
+
+Run it, and Spring Boot automatically starts an embedded server and your application.
